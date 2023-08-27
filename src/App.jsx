@@ -52,8 +52,7 @@ function App() {
 
         {/* You can use grid className for responsive todo card */}
         <div className="grid">
-          {todos.map((todo) => (
-            <TodoCard key={todo.id} todo={todo} />
+          {todos.map((todo) => ( <TodoCard key={todo.id} todo={todo} />
           ))}
         </div>
       </main>
