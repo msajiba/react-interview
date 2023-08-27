@@ -1,13 +1,11 @@
 /* eslint-disable react/prop-types */
-const TodoAdd = ({ name, setName, handleAddTodo }) => {
+const TodoAdd = () => {
   return (
     <div className="custom-input-box">
-      <form onSubmit={handleAddTodo}>
+      <form>
         <input
           type="text"
           placeholder="Enter something..."
-          value={name}
-          onChange={(e) => setName(e.target.value)}
           className="input-field"
         />
         <button type="submit" className="submit-button">

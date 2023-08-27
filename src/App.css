@@ -1,19 +1,18 @@
-.heading {
-  text-align: center;
-}
-
 body {
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .main-container {
   box-shadow: 5px 5px 10px gray;
   padding: 20px 30px;
   border-radius: 10px;
   margin-top: 10px;
+}
+
+.heading {
+  text-align: center;
 }
 
 .custom-input-box {
@@ -24,14 +23,12 @@ body {
 
 }
 
-
 .input-field {
   flex: 1;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
 
 .submit-button {
   background-color: #007bff;
@@ -41,7 +38,6 @@ body {
   padding: 10px 20px;
   cursor: pointer;
 }
-
 
 /* CARD DESIGN  */
 .card-container {
@@ -54,24 +50,3 @@ body {
   align-items: center;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-}
-
-
-/* RESPONSIVE  */
-@media screen and (max-width: 480px) {
-  .grid {
-    /* display: grid; */
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
-  }
-
-  .main-container {
-    box-shadow: 5px 5px 10px gray;
-    padding: 10px 20px;
-    border-radius: 10px;
-  }
-}
