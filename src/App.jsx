@@ -20,7 +20,7 @@ function App() {
   const [todos, setTodos] = useState(todoList);
   const [name, setName] = useState("");
 
-  console.log(todos);
+
 
   const handleAddTodo = (e) => {
     e.preventDefault();

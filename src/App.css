@@ -64,7 +64,7 @@ body {
 /* RESPONSIVE  */
 @media screen and (max-width: 480px) {
   .grid {
-    /* display: grid; */
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
   }
